@@ -7,6 +7,9 @@ Self-hosted note-taking tool. Go 1.25 backend (Echo v5, Connect RPC + gRPC-Gatew
 ## Commands
 
 ```bash
+# Full stack
+./scripts/dev.sh                    # Start backend (:8081) + frontend (:3001) together
+
 # Backend
 go run ./cmd/memos --port 8081    # Start dev server
 go test ./...                      # Run all tests
