@@ -15,6 +15,7 @@ const THEME_ICONS: Record<string, JSX.Element> = {
   paper: <Palette className="w-4 h-4" />,
   red: <Circle className="w-4 h-4 fill-red-500 text-red-500" />,
   blue: <Circle className="w-4 h-4 fill-blue-500 text-blue-500" />,
+  green: <Circle className="w-4 h-4 fill-green-500 text-green-500" />,
 };
 
 const ThemeSelect = ({ value, onValueChange, className }: ThemeSelectProps = {}) => {

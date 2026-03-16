@@ -1,5 +1,6 @@
 import blueThemeContent from "../themes/blue.css?raw";
 import defaultDarkThemeContent from "../themes/default-dark.css?raw";
+import greenThemeContent from "../themes/green.css?raw";
 import paperThemeContent from "../themes/paper.css?raw";
 import redThemeContent from "../themes/red.css?raw";
 
@@ -7,7 +8,7 @@ import redThemeContent from "../themes/red.css?raw";
 // Types and Constants
 // ============================================================================
 
-const VALID_THEMES = ["system", "default", "default-dark", "paper", "red", "blue"] as const;
+const VALID_THEMES = ["system", "default", "default-dark", "paper", "red", "blue", "green"] as const;
 
 export type Theme = (typeof VALID_THEMES)[number];
 export type ResolvedTheme = Exclude<Theme, "system">;
@@ -26,6 +27,7 @@ const THEME_CONTENT: Record<ResolvedTheme, string | null> = {
   paper: paperThemeContent,
   red: redThemeContent,
   blue: blueThemeContent,
+  green: greenThemeContent,
 };
 
 const THEME_COLORS: Record<ResolvedTheme, string> = {
@@ -34,6 +36,7 @@ const THEME_COLORS: Record<ResolvedTheme, string> = {
   paper: "#f5ede4",
   red: "#fff3f1",
   blue: "#f2f7ff",
+  green: "#f2fbf4",
 };
 
 export const THEME_OPTIONS: ThemeOption[] = [
@@ -43,6 +46,7 @@ export const THEME_OPTIONS: ThemeOption[] = [
   { value: "paper", label: "Paper" },
   { value: "red", label: "Rose" },
   { value: "blue", label: "Blue" },
+  { value: "green", label: "Green" },
 ];
 
 // ============================================================================

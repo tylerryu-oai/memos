@@ -1,0 +1,32 @@
+:root {
+  --background: oklch(0.976 0.01 150);
+  --foreground: oklch(0.3 0.03 160);
+  --card: oklch(0.992 0.004 150);
+  --card-foreground: oklch(0.27 0.025 160);
+  --popover: oklch(0.995 0.004 150);
+  --popover-foreground: oklch(0.27 0.025 160);
+  --primary: oklch(0.58 0.16 152);
+  --primary-foreground: oklch(0.99 0.003 150);
+  --secondary: oklch(0.946 0.02 150);
+  --secondary-foreground: oklch(0.38 0.04 160);
+  --muted: oklch(0.94 0.014 150);
+  --muted-foreground: oklch(0.53 0.024 160);
+  --accent: oklch(0.925 0.03 154);
+  --accent-foreground: oklch(0.3 0.036 160);
+  --destructive: oklch(0.55 0.2 24);
+  --destructive-foreground: oklch(0.99 0.003 150);
+  --border: oklch(0.89 0.018 150);
+  --input: oklch(0.845 0.022 150);
+  --ring: oklch(0.58 0.16 152);
+  --sidebar: oklch(0.958 0.015 152);
+  --sidebar-foreground: oklch(0.33 0.03 160);
+  --sidebar-accent: oklch(0.934 0.025 154);
+  --sidebar-accent-foreground: oklch(0.31 0.038 160);
+  --shadow-xs: 0 1px 3px 0px hsl(146 35% 18% / 0.05);
+  --shadow-sm: 0 1px 3px 0px hsl(146 35% 18% / 0.09), 0 1px 2px -1px hsl(146 35% 18% / 0.09);
+  --shadow: 0 1px 3px 0px hsl(146 35% 18% / 0.09), 0 1px 2px -1px hsl(146 35% 18% / 0.09);
+  --shadow-md: 0 1px 3px 0px hsl(146 35% 18% / 0.09), 0 2px 4px -1px hsl(146 35% 18% / 0.09);
+  --shadow-lg: 0 1px 3px 0px hsl(146 35% 18% / 0.09), 0 4px 6px -1px hsl(146 35% 18% / 0.09);
+  --shadow-xl: 0 1px 3px 0px hsl(146 35% 18% / 0.09), 0 8px 10px -1px hsl(146 35% 18% / 0.09);
+  --shadow-2xl: 0 1px 3px 0px hsl(146 35% 18% / 0.16);
+}
